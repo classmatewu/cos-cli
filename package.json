@@ -1,0 +1,32 @@
+{
+  "name": "cos-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "coscli-mac": "./bin/coscli-mac"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "esno ./src/cli.ts",
+    "build": "unbuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classmatewu/cos-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classmatewu/cos-cli/issues"
+  },
+  "homepage": "https://github.com/classmatewu/cos-cli#readme",
+  "dependencies": {
+    "zx": "^6.2.2"
+  },
+  "devDependencies": {
+    "esno": "^0.16.3",
+    "unbuild": "^0.7.4"
+  }
+}
